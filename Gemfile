@@ -8,3 +8,4 @@ gem "sinatra"
 gem "sinatra-activerecord"
 gem "sqlite3"
 gem "rake"
+gem "rorker", :github => 'S-H-GAMELINKS/rorker'

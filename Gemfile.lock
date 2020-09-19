@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/S-H-GAMELINKS/rorker
+  revision: b039b8d2f0bba70e856e5328cede50a63a923d07
+  specs:
+    rorker (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -43,6 +49,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake
+  rorker!
   sinatra
   sinatra-activerecord
   sqlite3
