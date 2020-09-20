@@ -1,12 +1,10 @@
 require_relative "../user.rb"
 
-def rand_str
-  8.times.map{('A'..'Z').to_a[rand(26)]}.join
-end
+n = 1
 
-10000.times do
-  name = rand_str
-  address = rand_str
-  tel = rand_str
-  User.create!(name: name, address: address, tel: tel)
+1000000.times do
+  str = 8.times.map{('A'..'Z').to_a[rand(26)]}.join
+  User.create!(name: str, address: str, tel: str)
+  puts n
+  n += 1
 end
